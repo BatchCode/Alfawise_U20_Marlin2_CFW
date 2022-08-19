@@ -19,5 +19,7 @@
 2. You are now able to compile/build the final program that will be used for the printer; in the total bottom of VSCode on the left, you will notice few icons (after the ⚠️), click on the " ✓ " arrow to start building, then wait for the process to fully finish.
 **Do not halt or stop that process as it is required in order to compile nor build the firmware.**
 
-# FYI
-Marlin_2.0.X_Beta_Alfawise_Ux0-master appears to be working and compiling since all compilation bugs are now fixed
+### FYI -- fast changelog (I ran out of time while writing the README, sry about it, fixing compilation bugs took me a while...)
+- Marlin_2.0.X_Beta_Alfawise_Ux0-master appears to be working and compiling since all compilation bugs are now fixed
+- Added compiled version from Marlin_2.0.X_Beta_Alfawise_Ux0-master
+- Added original stock firmware in V2.16 for U20
