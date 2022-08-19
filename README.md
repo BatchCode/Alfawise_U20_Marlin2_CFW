@@ -9,7 +9,8 @@
 # Setting up the dev environment
 
 1. Open VSCode, browse to "extension" tab, then install `C/C++` and `PIO` (`Platform IO`)
-2. Open Arduino IDE, press `CTRL+SHIFT+I` (or navigate to the "Tools" tab then click on "Library"), then install `U8glib` and `U8glib-HAL`
+2. Once PIO is installed, you will need to restart VSCode. This step CAN NOT be skipped.
+3. Open Arduino IDE, press `CTRL+SHIFT+I` (or navigate to the "Tools" tab then click on "Library"), then install `U8glib` and `U8glib-HAL`
 
 # Compiling the project
 
