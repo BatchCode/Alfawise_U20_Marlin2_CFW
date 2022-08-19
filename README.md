@@ -16,5 +16,5 @@
 
 1. Open VSCode, then open the project's ROOT folder. PIO will then read the full program, you will know that because a notification will be shown on the total bottom in the middle of VSCode and disappear after the process is fully complete.
 **Do not halt or stop that process as it is required in order to compile nor build the firmware.**
-2. You are now able to compile/build the final program that will be used for the printer; in the total bottom of VSCode on the left, you will notice few icons (after the ⚠️), click on the " ← " arrow to start building, then wait for the process to fully finish.
+2. You are now able to compile/build the final program that will be used for the printer; in the total bottom of VSCode on the left, you will notice few icons (after the ⚠️), click on the " ✓ " arrow to start building, then wait for the process to fully finish.
 **Do not halt or stop that process as it is required in order to compile nor build the firmware.**
