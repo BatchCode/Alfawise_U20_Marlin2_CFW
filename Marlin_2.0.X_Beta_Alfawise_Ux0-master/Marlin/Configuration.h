@@ -1094,7 +1094,7 @@
 
 #if defined(U20) || defined(LK1)
 #define X_BED_SIZE 300
-#define Y_BED_SIZE 300
+#define Y_BED_SIZE 400
 #define Z_MACHINE_MAX 400
 #endif
 
