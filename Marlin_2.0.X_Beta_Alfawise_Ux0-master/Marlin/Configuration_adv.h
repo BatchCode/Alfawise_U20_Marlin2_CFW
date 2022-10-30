@@ -849,6 +849,7 @@
    * an option on the LCD screen to continue the print from the last-known
    * point in the file.
    */
+  // BC: overrided by BatchCode
   #define POWER_LOSS_RECOVERY
   #if ENABLED(POWER_LOSS_RECOVERY)
     //#define POWER_LOSS_PIN         44 // Pin to detect power loss (optional)

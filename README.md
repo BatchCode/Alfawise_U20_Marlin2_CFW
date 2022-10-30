@@ -23,3 +23,7 @@
 - Marlin_2.0.X_Beta_Alfawise_Ux0-master appears to be working and compiling since all compilation bugs are now fixed
 - Added compiled version from Marlin_2.0.X_Beta_Alfawise_Ux0-master
 - Added original stock firmware in V2.16 for U20
+
+# 30/10/2022 quick update 
+- NEED IMPERATIVELY PIO 5.3.0
+- if compilation error, go to ".pio\libdeps\TMCSTEPPER\src\source\TMC2208Stepper.cpp" then change each occurence "SWSerial->end();" to "SWSerial->read();"

@@ -98,7 +98,8 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_CONFIG_H_AUTHOR "Hobi, tpruvot"  // Who made the changes.
+// BC: overrided by BatchCode
+#define STRING_CONFIG_H_AUTHOR "BatchCode"  // Who made the changes.
 #define SHOW_BOOTSCREEN
 #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 WEBSITE_URL         // will be shown during bootup in line 2
@@ -163,7 +164,8 @@
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
 #ifdef U20
-#define CUSTOM_MACHINE_NAME "Alfawise U20"
+// BC: overrided by BatchCode
+#define CUSTOM_MACHINE_NAME "BatchCode Labs v2"
 #elif defined(U30)
 #define CUSTOM_MACHINE_NAME "Alfawise U30"
 #elif defined(U20_PLUS)
@@ -1094,8 +1096,10 @@
 
 #if defined(U20) || defined(LK1)
 #define X_BED_SIZE 300
-#define Y_BED_SIZE 400
-#define Z_MACHINE_MAX 400
+// BC: overrided by BatchCode
+#define Y_BED_SIZE 410
+// BC: overrided by BatchCode
+#define Z_MACHINE_MAX 300
 #endif
 
 #if defined(U20_PLUS)
